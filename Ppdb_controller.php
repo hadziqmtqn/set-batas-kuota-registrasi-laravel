@@ -1,4 +1,3 @@
-```bash
 public function index(){
         $title = 'Daftar Akun PPDB Online';
         $profile = Profile_sekolah::get();
@@ -21,4 +20,3 @@ public function index(){
 
         return view('ppdb.index',compact('title','cek','profile','status','cek_status'));
     }
-    ```
